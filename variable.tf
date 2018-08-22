@@ -6,6 +6,8 @@ variable "env" {}
 
 variable "count" {}
 
-variable "tags" {}
+variable "tags" {
+    type = "map"
+}
 
 variable "name" {}
